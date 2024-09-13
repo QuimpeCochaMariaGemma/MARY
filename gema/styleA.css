@@ -1,0 +1,50 @@
+/* Estilo general para el cuerpo de la página "Acerca de" */
+body.about {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo para la sección del contenido "about" */
+.about-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para mejorar legibilidad */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilo para las imágenes */
+.about-content .escudo,
+.about-content .logo {
+    width: 150px;
+    margin: 10px;
+}
+
+/* Estilo para los enlaces */
+.about-content a {
+    color: #ffcc00; /* Color dorado para los enlaces */
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+}
